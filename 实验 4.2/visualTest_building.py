@@ -10,7 +10,7 @@ from data.custom_for_visual import CUSTOM_CLASSES_BUILDING as labelmap_building
 from data.custom_for_visual import customDetection, customAnnotationTransform, CUSTOM_ROOT, CUSTOM_CLASSES_BUILDING
 
 # from ssd import build_ssd
-from ssd_resnet_101 import build_ssd
+from ssd_resnet_18 import build_ssd
 
 import sys
 import os
